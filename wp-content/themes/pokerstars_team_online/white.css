@@ -1,0 +1,17 @@
+body {background:#EEE;}
+.widget {color:#333;}
+#twitterWidget ul span {color: #000;}
+.title-content h1 a {color: #000;}
+.widget h2 {color: #333;}
+.widget p {color: #666;}
+.comments {color: #666;}
+.background-fade {background-image: url(images/white-bg-fade.png);}
+.title-container {background-image: url(images/white-title-rpt.png)}
+.title-container .right {background-image: url(images/team-online-blog-header-white.png);}
+.site-menu {background-image: url(images/white-menu-bg.png);}
+.site-menu li {border-right-color: #CCC;}
+.site-menu a {color: #333;}
+.site-menu a:hover span, .site-menu .current_page_item a span {color:#FFF;}
+.title-content h1 {color: #000;}
+.title-content h2 {color:#333;}
+.site-footer {color:#333;}

@@ -1,0 +1,202 @@
+/*
+Theme Name: PokerStars Team Online
+Theme URI: http://www.ps-os.net/
+Author: PokerStars Web Team
+Author URI: http://www.pokerstars.com/
+Description: PokerStars Team Online Theme
+Version: 1.5
+Tags: PokerStars Team Online, Online Poker, PokerStars, Team Online.
+*/
+
+/*Reset Start*/
+p,ul,li,div,h1,h2,h3,h4,h5,h6,img,body,html,table,th,td,div,span {line-height:1em;padding:0;border:0;margin:0;outline:none;}
+/*Reset End*/
+
+/*Generic Styles*/
+.clear {clear:both}
+body {display:block;font: normal 12px Verdana;background:#000;}
+a { color: #AB0404;text-decoration:none; line-height:1.5em;}
+a:hover {text-decoration:underline;}
+.alignleft {float:left;margin-right:10px !important;}
+.post h2.no-posts {font-size:12px;margin:0;padding:10px 20px 0;}
+
+/*Header Start*/
+.site-header {position:relative;}
+.header-container{height:200px;width:960px;margin:0 auto;display:block;position:relative;}
+.profile-container {}
+.profile-picture {position: absolute;left: 25px;top: 25px;}
+.profile-overlay {background: url(images/profile-overlay.png) no-repeat;display: block;width: 140px;height: 160px;position: absolute;top: 20px;left: 20px;z-index: 10;}
+.background-image {position: absolute;right: 0;z-index: 0;}
+.background-fade {position: absolute;right: 0;top: 0;height: 200px;width: 500px;background: url(images/blk-bg-fade.png) no-repeat;z-index: 10;}
+.title-container {background: url(images/blk-title-rpt.png) repeat-x;height: 102px;position: absolute;top: 50px;left: 160px;z-index: 20;}
+.title-content {position: relative;z-index: 22;max-width: 500px;}
+.title-content h1 {font-size: 22px;padding: 5px 10px;margin: 0;color:#FFF;}
+.title-content h1 a {color:#FFF;}
+.title-content h2 {font-size: 16px;padding: 5px 10px;margin: 0;font-weight: normal;color:#AAA;}
+.title-container .right {background: url(images/team-online-blog-header.png) no-repeat;height: 102px;position: absolute;right: -100px;z-index: 21;width: 100px;top: 0;}
+form.search {width: 280px;height: 21px;position: relative;}
+.search-input {background: transparent url(images/search-bg.png) no-repeat scroll 0 0;border: none;color: #333;float: left;font-family: Verdana;font-size: 12px;height: 21px;margin: 0;padding: 0px 10px 0px 10px;width: 240px;outline: none;}
+.search-submit {border: 0 none;height: 21px;width: 30px;position: absolute;right: 0;top: 0;}
+.rssFeedLink {position:absolute;right:6px;bottom:-32px;z-index:50;padding:0;margin:0;}
+.rssFeedLink a {padding:0;margin:0;height:28px;width:28px;display:block;}
+#top_search {height: 24px;position: absolute;right: 0;bottom: 10px;width: 280px;display: block;z-index: 30;}
+/*Header End*/
+
+/*Site Menu Start*/
+.site-menu {display:block;margin:0 auto;width:960px;background:url(images/menu-bg.png);height:39px;}
+.site-menu a {color:#FFF;display:block;text-decoration:none;position:relative;font-weight:700;}
+.site-menu a span {padding:11px 20px;display:block;}
+.site-menu a:hover span, .site-menu .current_page_item a span{background:url(images/menu-hover.png) repeat-x;}
+.site-menu a span.menu-start {position:absolute;left:-5px;top:0;height:34px;float:left;}
+.site-menu a:hover span.menu-start,.site-menu .current_page_item span.menu-start {position:absolute;left:-4px;top:0;background:url(images/menu-start-hvr.png) no-repeat;height:34px;}
+.site-menu li {display:block;list-style:none; padding:1px 0;height:33px;float:left;border-right:#333 solid 1px;}
+.site-menu li.first {padding-left:5px;}
+/*Site Menu End*/
+
+/*Core Styles Start*/
+.site-content{width:960px;margin:0 auto;}
+.left-column,.content ,.right-column {width:200px;display:block;float:left;}
+.left-column {padding-right:10px;}
+.content {width:540px;padding-top:10px;}
+.right-column {padding-left:10px;}
+.comments {color:#FFF;}
+/*Core Styles End*/
+
+/*Home Page Styles Start*/
+
+/*Home Page Styles End*/
+
+/*Internal Page Styles Start*/
+.site-footer {border-top:groove 2px #00652e;padding:10px 10px 30px;width:960px;margin:0 auto;color:#999;} /*#00652e*/
+.team-online-logo {float:left;}
+.footer-text {float:left;display:block;width:300px;padding:0 10px;line-height:1.5em;font-size:10px;text-align:justify;}
+.footer-links-list{float:left;display:block;padding:10px 0 0 40px;}
+.footer-download {float:left;padding:10px;display:block;}
+.footer-links-list li {padding:0 0 10px 0;}
+/*Internal Page Styles End*/
+
+/*Post Styles Start*/
+.entry, .entry span, .entry p,.entry ul,.entry li,.entry h1,.entry h2,.entry h3,.entry h4,.entry h5,.entry h6,.entry body,.entry html,.entry table,.entry th,.entry td,.entry div,.entry span {line-height:1.5em;}
+object {display:block;margin:0 auto;padding-bottom:10px;}
+.post-container {width:540px;position:relative;padding:10px 0 20px;margin:0;}
+.post-top,.post-bot{background-repeat:no-repeat;position:absolute;left:0;height:10px;display:block;width:540px;overflow:hidden;}
+.post-bot{background-image:url(images/post-bot.png);bottom:0;}
+.post-top{background-image:url(images/post-top.png);top:10px;}
+.post{background:url(images/post-mid.gif) repeat-y;position:relative;top:10px;display:block;padding-bottom:10px;}
+.post .title {position:relative;left:10px;width:520px;padding-bottom:10px;}
+.post .title h2 {position:relative;display:block;line-height:1.4em;background:url(images/post-bar.png) right bottom no-repeat;padding: 0 10px 10px;font-size:16px;}
+.page-template-default .post .title h2, .page-template-archives-php .post .title h2, .error404 .post .title h2 {background-position:left bottom;}
+.post p {padding:10px 0;line-height:1.8em;overflow:hidden;display:block;}
+.post img {max-width:500px;margin:0 auto;display:block;}
+.post img.wrp-cards {margin:0;display:inline-block;}
+.post .thumb {margin:0 10px 10px 0;float:left;}
+.post .thumb.wide {margin:0 auto;float:none;display:block;}
+.post .thumb.video {display:block;margin:0 auto 10px;text-align:center;float:none;}
+.post .thumb.video object {padding:0;margin:0 auto;}
+.post .ratingblock {margin: 10px 20px;}
+.post h2 {padding:20px 10px;}
+.entry {padding:0px 20px;}
+.entry table {margin:10px auto;border:solid 1px #000;padding:1px;border-collapse:collapse;}
+.entry tr.alt {background:#E0E0E0;}
+.entry td {padding:3px 6px;border:solid 1px #666;}
+.entry th {padding:5px 6px;font-weight:700;background:#000;color:#FFF;}
+ul.date {width:40px;height:60px;list-style:none;background:url(images/date-bg.png) no-repeat;color:#FFF;text-align:center;font-family:Verdana;float:left;margin-right:10px;position:relative;}
+li.d,li.m{font-weight:700;text-transform:uppercase;}
+li.d{font-size:22px;}
+li.m{font-size:12px;padding:2px 0 0;}
+li.t{font-size:9px;padding:8px 0 0;}
+.entry ul {padding:0 20px;}
+.post .categories {display:block;text-align:right;padding:5px 0 0 0;font-size:0.9em;}
+.postmetadata {display:block;text-align:right;padding:10px;}
+
+/*Post Styles End*/
+
+/*Archive Start*/
+.entry.archive-title h3 {padding:10px 20px 10px 30px;}
+.entry.archive-title ul.arc {padding:0 0 0 40px;}
+.entry.archive-title ul li {padding:5px 10px;}
+/*Archive End*/
+/* Widget Styles Start */
+.widget {width:200px;padding:10px 0 10px;color:#FFF;}
+.widget ul {list-style:none;}
+.widget .icon {background-repeat:no-repeat;width:25px;height:25px;left:0px;top:2px;position:absolute;}
+.widget-title {display:block;background:url(images/widget-header.png) center bottom no-repeat;padding:10px 10px 15px 30px;color:#FFF;text-transform:uppercase;position:relative;}
+.widget h2 {display:block;/*background:url(images/widget-header.png) center bottom no-repeat*/border-bottom:groove 2px #00652e;padding:10px 10px 15px 30px;color:#FFF;text-transform:uppercase;position:relative;font-size:14px;}
+.widget p {color:#CCC;}
+.social-media .icon {background-image:url(images/socialmedia-icon.png)}
+#twitterWidget .icon {background-image:url(images/icons/twitter-widget-icon.png);background-position:-3px 2px;}
+#twitterWidget ul span {color:#FFF;line-height:1.5em;display:block;padding:10px 10px 0px;}
+#twitterWidget ul span a { color: #AB0404; text-decoration: none; display: inline; padding: 0;margin:0;line-height:1em;}
+#twitterWidget a {text-align:center;display:block;color:#666;}
+#twitterWidget li:first-child {background:none;}
+#twitterWidget li  {background:url(images/twitter-bar.png) center top no-repeat;padding-bottom:5px;}
+#ps-banner-left img{display:block;margin:0 auto;}
+
+#networksWidget .icon {background-image:url(images/icons/socialmedia-icon.png)}
+#networksWidget ul {list-style:none;}
+#networksWidget li {padding:10px;}
+#networksWidget .net-pic {float:left;padding-right:10px;}
+
+#networksWidget small {display:block;padding-top:5px;}
+#teamOnlineBlogRollWidget .icon {background-image:url(images/icons/team-online-icon.png);background-position:7px 4px;}
+#teamOnlineBlogRollWidget li,.blogroll li {padding:5px 10px 5px 20px;}
+#teamOnlineBlogRollWidget li.online {background:url(images/icons/online.png) left 4px no-repeat;}
+#teamOnlineBlogRollWidget small {color:#0A0;background:none;font-weight:700;font-style:italic;font-size:11px}
+
+#bioHighlightsWidget .icon {background-image:url(images/icons/bio-icon.png);background-position: 0 0;}
+#bioHighlightsWidget  h3 {padding:10px 10px 0;}
+#bioHighlightsWidget  p {padding:5px 10px 5px 20px;line-height:1.4em;}
+#featureVideo {height:200px;padding-top:10px;}
+#widget_polls-widget .icon {background-image:url(images/icons/poll-icon.png);}
+#playerOnlineWidget .icon {background-image:url(images/pso-offline.png);background-position: 0px 0px;}
+#playerOnlineWidget .icon.online {background-image:url(images/pso-online.png);}
+#playerOnlineWidget small {text-transform:none;font-style:italic;font-weight:700;font-size:11px;}
+#playerOnlineWidget small.online {color:#090;}
+#playerOnlineWidget small.offline {color:#F70102;}
+
+#playerOnlineWidget  p {padding:10px 0 0;}
+#widget_recent_entries .icon {background-image:url(images/icons/recent-icon.png);}
+#widget_recent_entries li {padding:10px 10px 5px 20px;background:url(images/recent_bull.gif) 3px 12px no-repeat;}
+#widget_archive .icon {background-image:url(images/icons/archive-icon.png);}
+#widget_archive select {width:100%;outline:none;margin:10px 0;}
+#widget_archive ul {padding-top:5px;}
+#widget_archive li {line-height:1.4em;padding: 5px 0l}
+#ngg_images .icon {background-image:url(images/icons/photo-icon.png);}
+#ngg_images .ngg-widget.entry-content {padding:10px 10px;}
+#ngg_images .ngg-widget.entry-content img {margin-bottom:5px;}
+.post .ngg-albumoverview, .post .ngg-galleryoverview {padding:0 20px 0 20px; width:inherit;}
+.post .slideshowlink {display:block;padding-bottom:10px;text-align:center;}
+
+#feature_videoWidget .icon {background-image:url(images/icons/video-icon.png);}
+.wp-polls p {padding:10px 10px;}
+.wp-polls-ul li input[type=radio]{ display:block;float:left;margin-top:4px;}
+.wp-polls-ul li label {line-height:1.5em;}
+.wp-polls-ans {padding:10px; width:inherit !important;}
+.poll-archive {display:none;}
+#linkcat-2 .icon {background-image:url(images/icons/blogroll-icon.png);}
+.banner-container {width:200px;overflow:hidden;text-align:center;}
+/* Widget Styles End */
+
+/* Plug-in Styles*/
+.ratingblock {clear:both;}
+
+/*Comments Fix*/
+#dsq-comments  div,#dsq-comments  li{line-height:1.3em}
+
+/* Google Plus 1, Twitter, Facebook Plugin Fix*/
+.social4i {margin-top:10px;}
+.FBConnectButton_Small .FBConnectButton_Text {line-height: 1em;}
+
+/*Comments*/
+.comments {width:520px;}
+.comments textarea {width:500px;}
+.comments form p {padding:10px 10px 0;}
+
+/*Page Navigation*/
+#navigation {color:#FFF;}
+#navigation .on {border:solid 1px #CCC;;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;padding:5px;color:#FFF;display:inline-block;background:#000;}
+#navigation a {padding:6px;display:inline-block;}
+#navigation a:hover {border:solid 1px #CCC;;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;padding:5px;color:#FFF;display:inline-block;text-decoration:none;background:#000;}
+
+.aligncenter {display:block;margin:0 auto;text-align:center;}
+img.wp-smiley {display:inline;margin:0px;}
